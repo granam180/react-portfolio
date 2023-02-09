@@ -20,7 +20,7 @@ const Contact = () => {
     e.preventDefault()
 
     emailjs
-      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
+      .sendForm('service_q86g40i', 'template_d9ajhrs', form.current, 'NcIroo0NLiIGnWmZJ')
       .then(
         () => {
           alert('Message successfully sent!')
@@ -39,14 +39,12 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
-              idx={15}
+              strArray={['C', 'r', 'e', 'a', 't', 'i', 'v', 'e ', ' ', 'f', 'o', 'r', ' ', 'h', 'i', 'r', 'e', '!']}
+              idx={17}
             />
           </h1>
           <p>
-            I am interested in freelance opportunities - especially on ambitious
-            or large projects. However, if you have any other requests or
-            questions, don't hesitate to contact me using below form either.
+              I'm a Web App Developer with a background in Graphic Design, experienced in Growth Hacking solutions.  I am currently available for hire, so if I sound like a good fit your next project, don't hesitate to reach out!
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -85,20 +83,22 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Slobodan Gajić,
+          Bonneville Development & Design
           <br />
-          Serbia,
+          Dover, DE
           <br />
-          Branka RadiČevića 19, 22000 <br />
-          Sremska Mitrovica <br />
           <br />
-          <span>freelancerslobodan@gmail.com</span>
+          <input type="submit" className="flat-button" value="CONTACT ME" />
+          <span cla><a href='mailto::bonneville.joey@gmail.com'>Contact Me</a></span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[44.96366, 19.61045]} zoom={13}>
+          <MapContainer center={[39.1632152, -75.5131345]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[44.96366, 19.61045]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[39.1632152, -75.5131345]}>
+              <Popup>HomeBase!</Popup>
+            </Marker>
+            <Marker position={[39.1265065, -75.4785807]}>
+              <Popup>🥹 Morgue</Popup>
             </Marker>
           </MapContainer>
         </div>

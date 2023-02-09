@@ -24,7 +24,7 @@ const Portfolio = () => {
     }, []);
 
     const getPortfolio = async () => {
-        const querySnapshot = await getDocs(collection(db, 'portfolio'));
+        const querySnapshot = await getDocs(collection(db, 'react portfolio'));
         setPortfolio(querySnapshot.docs.map((doc) => doc.data()));
     }
 

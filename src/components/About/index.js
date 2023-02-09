@@ -1,16 +1,16 @@
 import { useEffect, useState } from 'react'
 import {
-  faAngular,
-  faCss3,
   faGitAlt,
-  faHtml5,
+  faSass,
   faJsSquare,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { SiMapbox, SiPowerbi } from 'react-icons/si'
 import './index.scss'
+// import Carousel from 'react-multi-carousel'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -42,22 +42,22 @@ const About = () => {
             improving my chops one design problem at a time.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            If I need to define myself in one sentence that would be a music lover and songwriter 
+            under the name <strong><i>Joey Bonneville</i></strong> (brand name), photography/art enthusiast, and a tenacious-drive 
+            focusing in Full Stack development as well as Growth Hacking solutions.
           </p>
         </div>
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
-            </div>
+              <SiPowerbi icon={SiPowerbi} color="#F9A600" />
+            </div>   
             <div className="face2">
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-            </div>
+              <SiMapbox icon={SiMapbox} color="#76ABFF" />
+            </div>                
             <div className="face3">
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+              <FontAwesomeIcon icon={faSass} color="#C76496" />
             </div>
             <div className="face4">
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
@@ -67,10 +67,13 @@ const About = () => {
             </div>
             <div className="face6">
               <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-            </div>
+            </div>     
           </div>
         </div>
       </div>
+
+      {/* <Carousel /> */}
+      
       <Loader type="pacman" />
     </>
   )

@@ -14,11 +14,11 @@
     img {
       display: block;
       margin: 8px auto;
-      width: 24px;
+      width: 45px;
       height: auto;
 
       &.sub-logo {
-        width: 50px;
+        width: 68%
       }
     }
   }
@@ -84,15 +84,21 @@
       }
     }
 
-    a.contact-link {
-      &:after {
-        content: 'CONTACT';
-      }
-    }
-
     a.portfolio-link {
       &:after {
         content: 'PORTFOLIO';
+      }
+    }
+
+    a.skills-link {
+      &:after {
+        content: 'SKILLS';
+      }
+    }
+
+    a.contact-link {
+      &:after {
+        content: 'CONTACT';
       }
     }
 
@@ -186,5 +192,19 @@
         right: 15px;
         display: block;
      }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav-bar nav.mobile-show {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav-bar nav a {
+    bottom: 15vh;
+  }
+  .nav-bar nav a:after {
+    font-size: 1em;
   }
 }

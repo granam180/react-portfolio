@@ -7,6 +7,15 @@
 .top-tags {
   bottom: auto;
   top: 35px;
+  &-div {
+    margin-left: 20px;
+  }
+  &-green {
+    color: #C3E88D;
+  }
+  &-purple {
+    color: #C792EA;
+  }
 }
 
 .tags {
@@ -19,8 +28,13 @@
   font-family: 'La Belle Aurore', cursive;
 }
 
-.bottom-tag-html {
-  margin-left: -20px;
+.bottom-tag {
+  &-html {
+    margin-left: -20px;
+  }
+  &-div {
+    margin-left: 20px;
+  }
 }
 
 .container {
@@ -40,7 +54,8 @@
 
 .container.contact-page,
 .container.about-page,
-.container.portfolio-page {
+.container.portfolio-page,
+.container.skills-page {
   
     h1 {
       font-size: 53px;
@@ -51,6 +66,7 @@
       position: relative;
       margin-bottom: 40px;
       left: -10px;
+      letter-spacing: 1px;
 
       &:before {
         content: '<h1>';
@@ -114,6 +130,10 @@
   }
 }
 
+// .background-image {
+//   opacity: 0.1;
+// }
+
 @media screen and (max-width: 1200px) {
   .page {
     position: initial;
@@ -126,7 +146,8 @@
 
     &.contact-page,
     &.about-page,
-    &.portfolio-page {
+    &.portfolio-page
+    &.skills-page {
       .text-zone {
         position: initial;
         transform: none;

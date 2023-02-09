@@ -56,6 +56,11 @@
     transform: rotateX(-90deg) translateZ(100px);
     color: #ec4d28;
   }
+  // .face7 {
+  //   box-shadow: none;
+  //   background: none;
+  //   border: none;
+  // }  
 }
 
 @keyframes spincube {
@@ -77,5 +82,29 @@
   }
   83% {
     transform: rotateX(90deg);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .stage-cube-cont {
+    padding: 50px;
+  }
+
+  .cubespinner {
+    transform-origin: 50px 50px 0;
+    margin-left: calc(50% - 50px);
+  & div {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border: none;
+      background:none;
+      text-align: center;
+      font-size: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: none
+    }
   }
 }
