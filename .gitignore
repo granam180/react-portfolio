@@ -6,7 +6,7 @@
 .pnp.js
 
 # db
-/src/firebase.js
+.firebase/*
 
 # testing
 /coverage
@@ -15,8 +15,6 @@
 /build
 
 # misc
-.firebase/*
-../../firebase
 __generated__
 .DS_Store
 .env.local
