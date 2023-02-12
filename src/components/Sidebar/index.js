@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
-  faYoutube,
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons'
 import {
@@ -25,7 +24,7 @@ const Sidebar = () => {
 
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/animate" onClick={() => setShowNav(false)}>
+      <Link className="logo" to="/animated" onClick={() => setShowNav(false)}>
         {/* <img src={LogoS} alt="Logo" /> */}
         <img className="sub-logo" src={LogoSubtitle} alt="joeyB" />
       </Link>
@@ -33,7 +32,7 @@ const Sidebar = () => {
         <NavLink
           exact="true"
           activeclassname="active"
-          to="/animate"
+          to="/animated"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
@@ -49,7 +48,7 @@ const Sidebar = () => {
         <NavLink
           activeclassname="active"
           className="portfolio-link"
-          to="/projects"
+          to="/portfolio"
           onClick={() => setShowNav(false)}
         >
           <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
@@ -114,19 +113,6 @@ const Sidebar = () => {
           >
             <FontAwesomeIcon
               icon={faInstagram}
-              color="#4d4d4e"
-              className="anchor-icon"
-            />
-          </a>
-        </li>        
-        <li>
-          <a
-            href="https://www.youtube.com/channel/UCJoTrzLEBzA9Wj3cJjYkbcA"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon
-              icon={faYoutube}
               color="#4d4d4e"
               className="anchor-icon"
             />

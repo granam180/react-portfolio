@@ -39,8 +39,8 @@ const Contact = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['C', 'r', 'e', 'a', 't', 'i', 'v', 'e ', ' ', 'f', 'o', 'r', ' ', 'h', 'i', 'r', 'e', '!']}
-              idx={17}
+              strArray={['H', 'i', 'r', 'e', ' ', 'C', 'r', 'e', 'a', 't', 'i', 'v', 'e ', '!']}
+              idx={15}
             />
           </h1>
           <p>
@@ -83,27 +83,31 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Bonneville Development & Design
-          <br />
+          Bonneville Development & Design (BADD)
+          <br /><br />
           Dover, DE
-          <br />
-          <br />
-          <input type="submit" className="flat-button" value="CONTACT ME" />
-          <span cla><a href='mailto::bonneville.joey@gmail.com'>Contact Me</a></span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[39.1632152, -75.5131345]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[39.1632152, -75.5131345]}>
+            {/* <Marker position={[39.1632152, -75.5131345]}>
               <Popup>HomeBase!</Popup>
-            </Marker>
+            </Marker> */}
             <Marker position={[39.1265065, -75.4785807]}>
-              <Popup>🥹 Morgue</Popup>
+              <Popup>
+                <a
+                  href="https://en.wikipedia.org/wiki/Air_Force_Mortuary_Affairs_Operations"
+                  target="_blank"
+                  className="popup-link"
+                >
+                  🥹 AFMAO
+                </a>
+              </Popup>
             </Marker>
           </MapContainer>
         </div>
       </div>
-      <Loader type="pacman" />
+      <Loader type="ball-scale-multiple" />
     </>
   )
 }

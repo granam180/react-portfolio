@@ -104,7 +104,7 @@ const Skills = () => {
         </Container>
       </section>
 
-      <Loader type="pacman" />
+      <Loader type="ball-scale-multiple" />
     </>
   )
 }

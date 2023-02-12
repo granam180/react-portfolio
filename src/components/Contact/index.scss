@@ -63,7 +63,7 @@
     text-decoration: none;
     padding: 8px 10px;
     border: 1px solid #ffd700;
-    float: left;
+    // float: left;
     border-radius: 4px;
     background: 0 0;
     text-transform: uppercase;
@@ -79,6 +79,10 @@
   width: 53%;
   height: 115%;
   margin-top: -3%;
+  & .popup-link {
+    color: initial;
+    text-decoration: none;
+  }
 }
 
 .leaflet-container {

@@ -10,7 +10,6 @@ import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { SiMapbox, SiPowerbi } from 'react-icons/si'
 import './index.scss'
-// import Carousel from 'react-multi-carousel'
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -71,10 +70,8 @@ const About = () => {
           </div>
         </div>
       </div>
-
-      {/* <Carousel /> */}
       
-      <Loader type="pacman" />
+      <Loader type="ball-scale-multiple" />
     </>
   )
 }
