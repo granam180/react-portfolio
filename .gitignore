@@ -7,7 +7,7 @@
 
 # db
 .firebase/*
-../../firebase
+/firebase
 
 # testing
 /coverage
