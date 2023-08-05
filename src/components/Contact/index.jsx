@@ -40,23 +40,30 @@ const Contact = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['H', 'i', 'r', 'e', ' ', 'C', 'r', 'e', 'a', 't', 'i', 'v', 'e ', '!']}
-              idx={15}
+              idx={17}
             />
           </h1>
           <p>
-              I'm a Web App Developer with a background in Graphic Design, experienced in Growth Hacking solutions.  I am currently available for hire, so if I sound like a good fit your next project, don't hesitate to reach out!
+            I am a professional Front-end Developer with a strong foundation in Graphic Design. With an authentic personality and a deep passion for music, I bring a unique blend of creativity and technical expertise to my work. I am actively seeking new opportunities and would be delighted to contribute to your upcoming project. Please feel free to contact me without hesitation if you believe I would be a suitable addition to your team!
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
-                  <input placeholder="Name" type="text" name="name" required />
+                  <input
+                    placeholder="Name"
+                    type="text"
+                    name="from_name"
+                    id="from_name"
+                    required
+                  />
                 </li>
                 <li className="half">
                   <input
                     placeholder="Email"
                     type="email"
-                    name="email"
+                    name="reply_to"
+                    id="reply_to"
                     required
                   />
                 </li>
@@ -65,6 +72,7 @@ const Contact = () => {
                     placeholder="Subject"
                     type="text"
                     name="subject"
+                    id="subject"
                     required
                   />
                 </li>
@@ -72,6 +80,7 @@ const Contact = () => {
                   <textarea
                     placeholder="Message"
                     name="message"
+                    id="message"
                     required
                   ></textarea>
                 </li>
@@ -98,6 +107,7 @@ const Contact = () => {
                 <a
                   href="https://en.wikipedia.org/wiki/Air_Force_Mortuary_Affairs_Operations"
                   target="_blank"
+                  rel="noreferrer"
                   className="popup-link"
                 >
                   🥹 AFMAO
@@ -107,6 +117,8 @@ const Contact = () => {
           </MapContainer>
         </div>
       </div>
+      {/* <Loader type="ball-scale-multiple" class="loader-container" /> */}
+      {/* <Loader type="pacman" /> */}
       <Loader type="ball-scale-multiple" />
     </>
   )

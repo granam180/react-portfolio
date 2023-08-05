@@ -21,7 +21,7 @@
                 "Web"
             ],
             "industry": "Freelance",
-            "agency": "Bonneville Design",
+            "agency": "Bonneville Development & Design",
             "url": "https://joeybonneville.com/app/img/projects/web/twin_sounds_about.png",
             "cover": "https://joeybonneville.com/app/img/projects/web/twin_sounds_about.png"
         },
@@ -34,7 +34,7 @@
                 "Web"
             ],
             "industry": "Freelance",
-            "agency": "Bonneville Design",
+            "agency": "Bonneville Development & Design",
             "url": "https://joeybonneville.com/app/img/projects/web/twin_sounds.png",
             "cover": "https://joeybonneville.com/app/img/projects/web/twin_sounds.png"
         },
@@ -48,7 +48,7 @@
                 "Web"
             ],
             "industry": "Freelance",
-            "agency": "Bonneville Design",
+            "agency": "Bonneville Development & Design",
             "url": "https://joeybonneville.com/app/img/projects/graphics/header_logo.jpg",
             "cover": "https://joeybonneville.com/app/img/projects/graphics/header_logo.jpg"
         },
@@ -74,22 +74,9 @@
                 "Code"
             ],
             "industry": "Freelance",
-            "agency": "Bonneville Design",
+            "agency": "Bonneville Development & Design",
             "url": "https://joeybonneville.com/app/img/projects/code/bootstrapHTML.png",
             "cover": "https://joeybonneville.com/app/img/projects/code/bootstrapHTML.png"
-        },
-        {
-            "id": 33,
-            "slug": "javascript-html",
-            "title": "myBudget app",
-            "desc": "Budget application built in Javascript",
-            "skills": [
-                "Code"
-            ],
-            "industry": "Freelance",
-            "agency": "Bonneville Design",
-            "url": "https://joeybonneville.com/app/img/projects/code/budgetHTML.png",
-            "cover": "https://joeybonneville.com/app/img/projects/code/budgetHTML.png"
         },
         {
             "id": 34,
@@ -100,48 +87,9 @@
                 "Code"
             ],
             "industry": "Mortgage",
-            "agency": "Bonneville Design",
+            "agency": "Bonneville Development & Design",
             "url": "https://joeybonneville.com/app/img/projects/code/directive.jpg",
             "cover": "https://joeybonneville.com/app/img/projects/code/directive.jpg"
-        },
-        {
-            "id": 35,
-            "slug": "gruntjs",
-            "title": "gruntjs",
-            "desc": "Built Gruntjs file using Less and Watch task dependencies",
-            "skills": [
-                "Code"
-            ],
-            "industry": "Freelance",
-            "agency": "Bonneville Design",
-            "url": "https://joeybonneville.com/app/img/projects/code/gruntjs.png",
-            "cover": "https://joeybonneville.com/app/img/projects/code/gruntjs.png"
-        },
-        {
-            "id": 36,
-            "slug": "less",
-            "title": "less",
-            "desc": "Using LESS to compile CSS calls to browser. This example from first exposure in Petsmart project for eCommerce webstore",
-            "skills": [
-                "Code"
-            ],
-            "industry": "eCommerce",
-            "agency": "Ebay",
-            "url": "https://joeybonneville.com/app/img/projects/code/less.png",
-            "cover": "https://joeybonneville.com/app/img/projects/code/less.png"
-        },
-        {
-            "id": 37,
-            "slug": "css",
-            "title": "css",
-            "desc": "CSS example from years counter PHP example",
-            "skills": [
-                "Code"
-            ],
-            "industry": "Freelance",
-            "agency": "Bonneville Design",
-            "url": "https://joeybonneville.com/app/img/projects/code/years_counterCSS.png",
-            "cover": "https://joeybonneville.com/app/img/projects/code/years_counterCSS.png"
         },
         {
             "id": 38,
@@ -152,7 +100,7 @@
                 "Code"
             ],
             "industry": "Freelance",
-            "agency": "Bonneville Design",
+            "agency": "Bonneville Development & Design",
             "cover": "https://joeybonneville.com/app/img/projects/code/years_counterPHP.png",
             "url": "http://joeybonneville.com/app/years-counter/"
         },
@@ -243,7 +191,7 @@
                 "Web"
             ],
             "industry": "Freelance",
-            "agency": "Bonneville Design",
+            "agency": "Bonneville Development & Design",
             "url": "https://joeybonneville.com/app/img/projects/web/restructured.png",
             "cover": "https://joeybonneville.com/app/img/projects/web/restructured.png"
         },
@@ -256,7 +204,7 @@
                 "Web"
             ],
             "industry": "Freelance",
-            "agency": "Bonneville Design",
+            "agency": "Bonneville Development & Design",
             "url": "https://joeybonneville.com/app/img/projects/web/restructured_color.png",
             "cover": "https://joeybonneville.com/app/img/projects/web/restructured_color.png"
         },
@@ -309,7 +257,7 @@
                 "Web"
             ],
             "industry": "Freelance",
-            "agency": "Bonneville Design",
+            "agency": "Bonneville Development & Design",
             "cover": "https://joeybonneville.com/app/img/projects/web/valet-2.jpg",
             "url": "https://granam180.github.io/my-sites/valet-site-b4"
         },
@@ -335,7 +283,7 @@
                 "Web"
             ],
             "industry": "Freelance",
-            "agency": "Bonneville Design",
+            "agency": "Bonneville Development & Design",
             "url": "https://joeybonneville.com/app/img/projects/web/afterfly_old.jpg",
             "cover": "https://joeybonneville.com/app/img/projects/web/afterfly_old.jpg"
         },
@@ -348,7 +296,7 @@
                 "Web"
             ],
             "industry": "Freelance",
-            "agency": "Bonneville Design",
+            "agency": "Bonneville Development & Design",
             "cover": "https://joeybonneville.com/app/img/projects/web/afterfly_new.jpg",
             "url": "http://www.joeybonneville.com/demos/afterfly/site/index.html"
         },
@@ -361,7 +309,7 @@
                 "Web"
             ],
             "industry": "Freelance",
-            "agency": "Bonneville Design",
+            "agency": "Bonneville Development & Design",
             "cover": "https://joeybonneville.com/app/img/projects/web/afterflyme.jpg",
             "url": "https://www.afterfly.me/"
         },
@@ -374,7 +322,7 @@
                 "Code"
             ],
             "industry": "Freelance",
-            "agency": "Bonneville Design",
+            "agency": "Bonneville Development & Design",
             "url": "https://joeybonneville.com/app/img/projects/code/tod.jpg",
             "cover": "https://joeybonneville.com/app/img/projects/code/tod.jpg"
         },
@@ -387,7 +335,7 @@
                 "Web"
             ],
             "industry": "Freelance",
-            "agency": "Bonneville Design",
+            "agency": "Bonneville Development & Design",
             "cover": "https://joeybonneville.com/app/img/projects/web/portfolio.jpg",
             "url": "http://joeybonneville.com/app/#/projects"
         },
@@ -434,7 +382,7 @@
             "id": 66,
             "slug": "todo-list",
             "title": "ToDo List App",
-            "desc": "Built a CRUD ToDo List using JQuery.",
+            "desc": "Built a RESTful JQuery ToDo List.",
             "skills": [
                 "Code"
             ],
@@ -471,18 +419,69 @@
             "url": "https://joeybonneville.com/"
         },
         {
-            "id": 73,
-            "slug": "mapbox-gl",
-            "title": "Hospitality Experience Map",
-            "desc": "Using Mapbox-GL JS and geojson coordinates to deliver a full-throttle digital experience app.  Key features include quickly filtering through solution options for each particular partner group, and disabling each experience that does not affiliate with each client Persona",
+            "id": 74,
+            "slug": "iwco-website",
+            "title": "IWCO Wordpress Site",
+            "desc": "Helped create a Wordpress site using Elementor Pro for page building for an in-demand one-stop-shop print marketing company",
             "skills": [
-                "Web",
-                "Code"
+                "Web"
             ],
             "industry": "MDG",
             "agency": "Hospitality",
-            "url": "https://joeybonneville.com/app/img/projects/code/wxg.png",
-            "cover": "https://joeybonneville.com/app/img/projects/code/wxg.png"
+            "url": "https://www.iwco.com/",
+            "cover": "https://joeybonneville.com/app/img/projects/web/iwco.png"
+        },        
+        {
+            "id": 75,
+            "slug": "react-map-gl-geocoder",
+            "title": "ReactJS Geocoder",
+            "desc": "Mapbox 'geocode' search functionality built with react-map-gl and custom styling to search",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonnevillereacts.com/mapbox-v2",
+            "cover": "https://joeybonneville.com/app/img/projects/code/mapbox.png"
+        },
+        {
+            "id": 76,
+            "slug": "my-chatgpt",
+            "title": "BaddGPT",
+            "desc": "Robust OpenAI API - ChatGPT clone built with Next.js 13, Firebase, Google Cloud API, Tailwind CSS, TypeScript and deployed on Vercel. Most proficient in Research & Development to increase workflow and has many uses",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonneville.com/app/img/projects/code/baddgpt.png",
+            "cover": "https://joeybonneville.com/app/img/projects/code/baddgpt.png"
+        },
+        {
+            "id": 77,
+            "slug": "react-weather-app",
+            "title": "3-hour Weather Forecast",
+            "desc": "3-hour weather forecast app based on 'Current Location' built on ReactJS with Context, and utilizing the 'GeoDB Cities' Rapid API & OpenWeather API",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonnevillereacts.com/weather/",
+            "cover": "https://joeybonneville.com/app/img/projects/code/3_hour.png"
+        },
+        {
+            "id": 78,
+            "slug": "react-weather-app-5d",
+            "title": "5-day Weather Forecast",
+            "desc": "5-day weather forecast app built on ReactJS, and utilizing only OpenWeather API",
+            "skills": [
+                "Code"
+            ],
+            "industry": "Freelance",
+            "agency": "Bonneville Development & Design",
+            "url": "https://joeybonnevillereacts.com/weather/5-day",
+            "cover": "https://joeybonneville.com/app/img/projects/code/5_day.png"
         }
     ]
 }

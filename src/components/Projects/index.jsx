@@ -243,7 +243,7 @@ const Projects = () => {
       industry: 'Freelance',
       agency: 'Bonneville Design',
       imgUrl:
-        'https://joeybonneville.com/app/img/projects/graphics/img1.png',
+        'https://joeybonneville.com/app/img/projects/graphics/badd.png',
       link: 'https://joeybonneville.com/app/img/projects/graphics/badd_black.png',
     },
   ]
@@ -701,7 +701,7 @@ const Projects = () => {
       id: 73,
       slug: 'mapbox-gl',
       title: 'Hospitality Experience Map',
-      desc: 'Using Mapbox-GL JS and geojson coordinates to deliver a full-throttle "digital experience" app.  Key features include quickly filtering through solution options for each particular partner group, and disabling each experience that does not affiliate with each client "Persona"',
+      desc: 'Using Mapbox-GL JS and geojson coordinates to deliver a full-throttle "digital experience" app.  Key features include quickly filtering through solution options for each particular partner group, abnd disabling each experience that does not affiliate with each client "Persona"',
       skills: ['Web', 'Code'],
       industry: 'MDG',
       agency: 'Hospitality',
@@ -882,7 +882,7 @@ const Projects = () => {
         </Container>
       </section>
 
-      <Loader type="ball-scale-multiple" />
+      <Loader type="pacman" />
     </>
   )
 }
